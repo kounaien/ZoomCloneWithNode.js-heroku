@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kounaien/zoom-clone/issues"
   },
-  "homepage": "https://github.com/kounaien/zoom-clone#readme"
+  "homepage": "https://github.com/kounaien/zoom-clone#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
 }
