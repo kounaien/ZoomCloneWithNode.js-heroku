@@ -69,3 +69,42 @@ video {
 .leave_meeting {
     color: #eb534b;
 }
+
+.main__right {
+    display: flex;
+    flex-direction: column;
+    background-color: #242324;
+    border-left: 1px solid #3d3d42;
+}
+
+.main__header {
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.main__chat__window {
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.main__message__container {
+    padding: 22px 12px;
+    display: flex;
+}
+
+.main__message__container input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    color: #f5f5f5;
+}
+
+.messages {
+    color: white;
+    list-style: none;
+}
+
+.unmute, .stop {
+    color: red;
+}
+
